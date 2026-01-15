@@ -140,7 +140,10 @@ As with aything in crypto you overturn one stone and realize the whole thing is 
 - Do something other than complain 
 - PRs welcome I guess. 
 
-## Addendum
+## Addendum / Outtakes
+- I didn't mention porto.sh because last I saw (and I could be wrong) their sdk relies on their bundler alone which is a no-no on the vendor coupling side. No I'm not going to run my own infra (for now)
+- Privy was sold for $1.1 Billion for what Ethereum now offers out of the box if you plug some things together *just right*
+
 Some have open sourced their Bundler, Paymaster since this article was written https://medium.com/coinmonks/top-6-account-abstraction-providers-an-in-depth-review-3a09b9fc707c 
 
 dApps Should have (Facilitated by Supporting Wallet Mechanics)
