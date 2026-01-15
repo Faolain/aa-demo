@@ -1,0 +1,42 @@
+{
+  "name": "aa-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.5.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "local:chain": "pnpm -C onchain local:dev",
+    "local:bundler": "pnpm -C onchain bundler:transeptor",
+    "local:bundler:skandha": "pnpm -C onchain bundler:skandha:config && pnpm -C onchain bundler:skandha",
+    "local:smoke:userop": "pnpm -C onchain smoke:userop",
+    "local:smoke:bundler": "pnpm -C onchain smoke:userop:bundler",
+    "local:dev": "node scripts/local-dev.mjs"
+  },
+  "dependencies": {
+    "@safe-global/protocol-kit": "6.1.1",
+    "@safe-global/relay-kit": "4.1.0",
+    "@safe-global/safe-deployments": "^1.37.49",
+    "@safe-global/safe-modules-deployments": "^2.2.21",
+    "@safe-global/safe-passkey": "0.2.0",
+    "@safe-global/types-kit": "^3.0.0",
+    "@walletconnect/ethereum-provider": "2.23.1",
+    "lucide-react": "^0.556.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sonner": "^2.0.7",
+    "viem": "2.43.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "tailwindcss": "^4.1.17",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.5"
+  }
+}

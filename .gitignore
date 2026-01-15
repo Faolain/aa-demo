@@ -1,0 +1,7 @@
+node_modules
+onchain/node_modules
+onchain/cache
+onchain/artifacts
+onchain/deployments
+onchain/bundler/*.local.json
+.DS_Store

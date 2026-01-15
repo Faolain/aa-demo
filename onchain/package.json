@@ -1,0 +1,34 @@
+{
+  "name": "aa-demo-onchain",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy-local.ts --network localhost",
+    "deploy:entrypoint-sim": "hardhat run scripts/deploy-entrypoint-simulations.ts --network localhost",
+    "emit:local": "hardhat run scripts/emit-local-chain-config.ts --network localhost",
+    "local:dev": "node scripts/local-dev.mjs",
+    "fund:safe": "node scripts/fund-safe.mjs",
+    "mint:usdc": "node scripts/mint-usdc.mjs",
+    "smoke:userop": "hardhat run scripts/smoke-userop.ts --network localhost",
+    "test:userop:local": "hardhat run scripts/smoke-userop.ts --network localhost",
+    "smoke:userop:bundler": "hardhat run scripts/smoke-userop-bundler.ts --network localhost",
+    "bundler:skandha:config": "hardhat run scripts/emit-skandha-config.ts --network localhost",
+    "bundler:skandha": "node scripts/run-skandha.mjs",
+    "bundler:transeptor": "node scripts/run-transeptor.mjs"
+  },
+  "devDependencies": {
+    "@account-abstraction/contracts": "0.8.0",
+    "@nomicfoundation/hardhat-ethers": "4.0.1",
+    "@safe-global/protocol-kit": "^6.1.2",
+    "@safe-global/relay-kit": "4.1.0",
+    "@safe-global/safe-4337": "0.3.0-1",
+    "@safe-global/safe-contracts": "1.4.1-2",
+    "@safe-global/safe-passkey": "0.2.0",
+    "ethers": "6.15.0",
+    "hardhat": "3.0.5",
+    "typescript": "5.9.3"
+  }
+}
