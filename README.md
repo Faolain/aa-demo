@@ -5,10 +5,12 @@ This is a  Vite + React + TypeScript app that reproduces the Account Abstraction
 
 - Passkey-based Safe owners (WebAuthn)
 - Account abstraction (Safe4337 + bundler routing)
-- Injected wallet support (MetaMask/Rabby/etc)
+- Injected wallet support (MetaMask/Rabby/etc) - Used in the demo but portable key can be with email via zkEmail, Lit Protocol, TaCo can be done. 
 - WalletConnect fallback
 - Social recovery module wiring
 - Cross-origin isolation headers (COOP/COEP) for passkey + storage safety
+
+**ACHTUNG | WARNING!!!** THIS CODEBASE IS VIBECODED AI SLOP SDK. THIS IS NOT PRODUCTION CODE. DO NOT USE THIS IN YOUR CODE. THIS IS JUST AN ILLUSTRATION OF WHAT YOU CAN DO (that said I welcome PRs)
 
 ## There is an idea of Account Abstraction...some kind of Abstraction
 If you're like me, you've heard of **Account Abstraction(AA)** over the years and may have gotten the impression from X threads/Conference Talks that AA *finally solves* the normie user UX onboarding issue while keeping all the "good parts" of Web3 (e.g. **sovereign**, **decentralized**, **permissionless** etc etc).
@@ -122,7 +124,15 @@ Account Abstraction is great and has solved a very real problem, but the fact th
 
 What was supposed to be a simple exercise in implementing the latest feature in Ethereum, one that was supposed to make onboarding easier, made me realize why no one actually showed up. The last mile to actually bring users on wasn't paved and instead VC funded corpos created walled garden SDKs with ridiculous fees while larping as crypto infra.
 
-As with aything in crypto you overturn one stone and realize the whole thing is rotten. Anyway someone make this vibe coded slop better (with your own slop) so devs actually have useful library to itnegrate.
+As with aything in crypto you overturn one stone and realize the whole thing is rotten. Anyway someone make this vibe coded slop better (with your own slop) so devs actually have useful library to integrate.
+
+## My ASK
+- Infra providers add crypto payments
+- Wallet SDKs that add tight coupling to your SDKs remove them
+- Etherspot/Candide/Pimlico update your SDKs to support the latest AA features/modules and make it stupidly easy for people to use them (everyone will end up using your infra as a result)
+- Anyone reading this run paymasters/bundlers and undercut the insane extortion that's going on
+- Do something other than complain 
+- PRs welcome I guess. 
 
 ## Addendum
 Some have open sourced their Bundler, Paymaster since this article was written https://medium.com/coinmonks/top-6-account-abstraction-providers-an-in-depth-review-3a09b9fc707c 
