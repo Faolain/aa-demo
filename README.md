@@ -12,6 +12,12 @@ This is a  Vite + React + TypeScript app that reproduces the Account Abstraction
 
 **ACHTUNG | WARNING!!!** THIS CODEBASE IS VIBECODED AI SLOP SDK. THIS IS NOT PRODUCTION CODE. DO NOT USE THIS IN YOUR CODE. THIS IS JUST AN ILLUSTRATION OF WHAT YOU CAN DO (that said I welcome PRs)
 
+Demo:
+
+https://github.com/user-attachments/assets/1a97d70f-d599-480c-9c1a-708c5eca5cfd
+
+
+
 ## There is an idea of Account Abstraction...some kind of Abstraction
 If you're like me, you've heard of **Account Abstraction(AA)** over the years and may have gotten the impression from X threads/Conference Talks that AA *finally solves* the normie user UX onboarding issue while keeping all the "good parts" of Web3 (e.g. **sovereign**, **decentralized**, **permissionless** etc etc).
 
