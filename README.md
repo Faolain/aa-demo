@@ -12,7 +12,7 @@ This is a  Vite + React + TypeScript app that reproduces the Account Abstraction
 
 **ACHTUNG | WARNING!!!** THIS CODEBASE IS VIBECODED AI SLOP SDK. THIS IS NOT PRODUCTION CODE. DO NOT USE THIS IN YOUR CODE. THIS IS JUST AN ILLUSTRATION OF WHAT YOU CAN DO (that said I welcome PRs)
 
-Demo:
+Demo(using Metamask as a portable signer to load the wallet on another origin):
 
 https://github.com/user-attachments/assets/1a97d70f-d599-480c-9c1a-708c5eca5cfd
 
