@@ -10,7 +10,7 @@ This is a  Vite + React + TypeScript app that reproduces the Account Abstraction
 - Social recovery module wiring
 - Cross-origin isolation headers (COOP/COEP) for passkey + storage safety
 
-**ACHTUNG | WARNING!!!** THIS CODEBASE IS VIBECODED AI SLOP SDK. THIS IS NOT PRODUCTION CODE. DO NOT USE THIS IN YOUR CODE. THIS IS JUST AN ILLUSTRATION OF WHAT YOU CAN DO (that said I welcome PRs)
+**ACHTUNG | WARNING!!!** THIS CODEBASE IS VIBECODED AI SLOP SDK. THIS IS NOT PRODUCTION CODE. DO NOT USE THIS IN YOUR CODE. THIS IS JUST AN ILLUSTRATION OF WHAT YOU CAN DO. SAFEADAPTER 7579 is currently stubbed (ENTRYPOINT 0.8 which came out in March of 2025 still isn't even supported on the fallback adapter lol)
 
 Demo(using Metamask as a portable signer to load the wallet on another origin):
 
